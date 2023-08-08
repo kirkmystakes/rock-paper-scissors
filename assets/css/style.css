@@ -5,7 +5,7 @@
     font-weight: bold;
 }
 body {
-    background-image: url(/assets/images/background.jpg);
+    background-image: url(assets/images/background.jpg);
 }
 .container {
     height: 600px;
