@@ -41,8 +41,6 @@ const game = () => {
         const result = document.querySelector("#result");
         const playerScoreBoard = document.querySelector("#playerCount");
         const computerScoreBoard = document.querySelector("#botCount");
-        const winner = document.querySelector("#winnerSelection")
-        const loser = document.querySelector("#loserSelection")
         player = player.toLowerCase();
         computer = computer.toLowerCase();
         if(player === computer){
