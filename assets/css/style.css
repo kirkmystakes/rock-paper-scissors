@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+body {
+    background-image: url(/assets/images/background.jpg);
+}
+.container {
+    height: 600px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 40px auto;
+    padding-top: 10px;
+    background-color: rgb(106, 125, 199);
+    width: 800px;
+}
+.heading{
+    padding: 20px 50px;
+}
+.title {
+    font-size: 50px;
+    padding: 20px;
+    color: bisque;
+}
+.player {
+    font-size: 30px;
+    color: rgb(246, 230, 7);
+}
+.computer {
+    font-size: 30px;
+    color: rgb(6, 223, 24);
+}
+.score {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 120px;
+}
+.player-count,.bot-count {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+
+}
+.move {
+    padding: 30px 0 10px 0;
+    font-size: 20px;
+}
+.movesleft {
+    padding: 20px 0 10px 0;
+}
+.selection {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.choiceSelection {
+    font-size: 80px;
+    padding: 0.8rem;
+    width: 100px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 100ms;
+}
+.choiceSelection:hover {
+    transform: scale(1.2);
+}
+.result {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.restart {
+    display: none;
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(86, 204, 86);
+}
+.player-count,.bot-count {
+    padding-top: 10px;
+    font-size: 20px;
+}
